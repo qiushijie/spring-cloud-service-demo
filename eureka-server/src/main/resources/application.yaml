@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    nacos:
+      discovery:
+        serverAddr: 127.0.0.1:8848
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
