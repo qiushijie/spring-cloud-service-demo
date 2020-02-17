@@ -14,4 +14,4 @@
 
 * http://localhost:8002 eureka访问nacos服务
 
-* http://localhost:8004 nacos服务服务eureka服务
+* http://localhost:8004 nacos访问eureka服务
